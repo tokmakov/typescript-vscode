@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        // Общие настройки компиляции
+        "target": "es2015",
+        "moduleResolution": "node16",
+        "module": "es2015",
+        "outDir": "build",
+        "sourceMap": true,
+        "removeComments": true,
+        "newLine": "lf",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react-jsx", // NEW включить поддержку jsx
+        // Группа Strict Checks
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        // Группа Linter Checks
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        // Группа Advanced
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": true,
+        "suppressExcessPropertyErrors": false,
+        "suppressImplicitAnyIndexErrors": false,
+        "noStrictGenericChecks": false
+    },
+    "include": [
+        "src"
+    ]
+}
